@@ -1,13 +1,73 @@
+/* panga */
+
+
 body {
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-color: black;
+  /* background-image: url("https://images.pexels.com/photos/821718/pexels-photo-821718.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"); */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+  /* height: 100vh; */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__480.jpg */
+
+/* .Main {
+    background-image: url("https://thumbs.dreamstime.com/b/round-moon-13842609.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+} */
+.header{
+  color: white;
+  /* width:  */
+  font-size: 5vw;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  /* border-right: .15em solid white; The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  text-align: center;
+  letter-spacing: .15em; /* Adjust as needed */
+
+  /* animation: 
+  typing 3.5s steps(40, end),
+  blink-caret .75s step-end infinite; */
+
+}
+#plane {
+  width: 15vw;
+}
+/* .moon {
+  text-align: center;
+  position: absolute;
+  bottom: 90;
+  left: 0;
+  right: 0;
+} */
+#moon {
+  width: 100%;
+}
+
+.moon {
+  position: absolute; 
+  left: 0; 
+  right: 0; 
+  z-index: -1;
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 300px; 
 }
