@@ -1,7 +1,7 @@
 import useWebAnimations from "@wellyshen/use-web-animations";
 
 function Header() {
-    const { ref, playState, getAnimation } = useWebAnimations({
+    const { ref } = useWebAnimations({
         keyframes: [
             { width: "0vw" },
             { width: "90vw" }
